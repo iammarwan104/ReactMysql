@@ -122,6 +122,7 @@ if (isset($_POST)) {
     if ($_SERVER['REQUEST_METHOD'] == 'PUT') {
         $id = $_GET['id'];
 
+        // 4 variable ini selalu bernilai undifined value key ketika melakukan put dataz sudah saya cek jangan sampai ada yang typo tapi tetap saja 
         $name_project = $_GET['name_project'];
         $information_project = $_GET['information_project'];
         $img1_project = $_GET['img1_project'];
